@@ -3,3 +3,5 @@
 ## Day 1: Report Repair (Solved)
 
 ## Day 2: Password Philosophy (Solved)
+
+## Day 3: Toboggan Trajectory (Solved)

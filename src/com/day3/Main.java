@@ -28,11 +28,18 @@ public class Main {
     private static int part1(String[] entries, int right, int down) {
         int countOfTrees = 0;
         int startPosition = 0;
+        int numberOfRepeats = 2;
 
         for ( int i = 0; i < entries.length; i += down) {
-            String row = entries[i].repeat(100); // Random Number
 
-            if ( row.charAt(startPosition) == '#' ) {
+            try {
+                entries[i].charAt(startPosition);
+            } catch (IndexOutOfBoundsException e) {
+                entries[i] = entries[i].repeat(numberOfRepeats);
+                numberOfRepeats++;
+            }
+
+            if ( entries[i].charAt(startPosition) == '#' ) {
                 countOfTrees++;
             }
 

@@ -8,3 +8,4 @@
 
 ## Day 4: Passport Processing (Solved)
 
+## Day 5: Binary Boarding (Solved)

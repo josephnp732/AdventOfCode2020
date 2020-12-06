@@ -9,3 +9,5 @@
 ## Day 4: Passport Processing (Solved)
 
 ## Day 5: Binary Boarding (Solved)
+
+## Day 6: Custom Customs (Solved)

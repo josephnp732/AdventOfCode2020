@@ -11,3 +11,7 @@
 ## Day 5: Binary Boarding (Solved)
 
 ## Day 6: Custom Customs (Solved)
+
+
+
+## Day 8: Handheld Halting (Solved)
